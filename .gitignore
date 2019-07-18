@@ -1,0 +1,8 @@
+# Generic
+node_modules
+.idea
+.DS_Store
+
+# using npm
+yarn.lock
+coverage

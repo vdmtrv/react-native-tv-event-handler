@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "jsx": "react-native",
+    "baseUrl": "./",
+    "module": "commonjs",
+    "types": ["webpack-env", "node", "jest", "react", "react-native"],
+    "outDir": "lib/",
+    "declaration": true,
+    "sourceMap": true,
+    "paths": {
+    },
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true
+  },
+  "exclude": ["node_modules", "submodules/**/*", "src/**/*.test.ts"]
+}
+  

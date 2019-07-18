@@ -1,0 +1,42 @@
+{
+  "name": "react-native-tv-event-handler",
+  "version": "0.0.1",
+  "description": "React Native TV event handler for tvOS and Android TV",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "compile": "rm -rf ./lib && tsc",
+    "tsc": "tsc",
+    "watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdimitrovv/react-native-tv-event-handler.git"
+  },
+  "author": "Ventsislav Dimitrov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vdimitrovv/react-native-tv-event-handler/issues"
+  },
+  "homepage": "https://github.com/vdimitrovv/react-native-tv-event-handler#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.13",
+    "@types/node": "10.3.4",
+    "@types/react": "16.4.1",
+    "@types/react-native": "0.55.22",
+    "prettier": "^1.16.4",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.15.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "3.5.1"
+  },
+  "peerDependencies": {
+    "react-native": "^0.59.3"
+  },
+  "lint-staged": {
+    "*.ts*": [
+      "prettier --debug-check --print-width=100",
+      "tslint --fix"
+    ]
+  }
+}
